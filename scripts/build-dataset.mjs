@@ -41,6 +41,8 @@ const RELEASE_DATE = '2026-11-24';
 const ZENODO_DOI = '10.5281/zenodo.24488828';
 const ZENODO_CONCEPT_DOI = '10.5281/zenodo.24488827';
 const ZENODO_RECORD_URL = 'https://zenodo.org/records/24488828';
+const FIGSHARE_DOI = '10.6084/m9.figshare.35099296.v1';
+const FIGSHARE_URL = 'https://figshare.com/articles/dataset/China_Tier-3A_International_Medical_Center_IMC_Directory_Cross-Border_Medical_Cost_Benchmarks_2026_/35099296';
 
 function writeUtf8Lf(filePath, content) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
@@ -861,6 +863,7 @@ configs:
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![Dataset Version](https://img.shields.io/badge/Version-${DATASET_VERSION}-emerald.svg)](CITATION.cff)
 [![DOI](https://zenodo.org/badge/DOI/${ZENODO_DOI}.svg)](https://doi.org/${ZENODO_DOI})
+[![Figshare DOI](https://img.shields.io/badge/Figshare%20DOI-10.6084%2Fm9.figshare.35099296.v1-blue.svg)](https://doi.org/${FIGSHARE_DOI})
 
 An open, structured cross-border healthcare research dataset compiled and maintained by **[ChinaMedVisit](https://chinamedvisit.com)** (\`admin@chinamedvisit.com\`). Designed for health economists, medical journalists, expatriate benefits researchers, and AI/RAG evaluation benchmarks.
 
@@ -926,7 +929,7 @@ This repository is structured for synchronized, quarterly versioned archival und
 
 - **GitHub Repository & Quarterly Releases**: \`https://github.com/ChinaMedVisit/china-tier3a-imc-healthcare-dataset\`
 - **Zenodo (Live DataCite DOI)**: [\`https://zenodo.org/records/24488828\`](${ZENODO_RECORD_URL}) | Version DOI: [\`${ZENODO_DOI}\`](https://doi.org/${ZENODO_DOI}) | Concept DOI: [\`${ZENODO_CONCEPT_DOI}\`](https://doi.org/${ZENODO_CONCEPT_DOI})
-- **Figshare (DOI)**: Upload \`data/*.csv\` + charts from \`notebooks/china_medical_cost_eda.ipynb\` under \`CC-BY-4.0\`
+- **Figshare (Live DOI #2)**: [\`https://figshare.com/.../35099296\`](${FIGSHARE_URL}) | DOI: [\`${FIGSHARE_DOI}\`](https://doi.org/${FIGSHARE_DOI}) (11 files: 5 CSVs + metadata + EDA notebook + 2 SVG benchmark charts under \`CC-BY-4.0\`)
 - **OSF.io**: Connect GitHub add-on & register open project DOI
 - **Hugging Face Datasets**: Sync repo directly (YAML Dataset Card frontmatter is pre-configured above)
 - **Kaggle Datasets**: Upload using \`kaggle/dataset-metadata.json\` (\`chinamedvisit/china-tier3a-imc-medical-cost-benchmarks-2026\`) + \`notebooks/china_medical_cost_eda.ipynb\`
