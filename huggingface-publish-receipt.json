@@ -1,0 +1,57 @@
+{
+  "publishedAt": "2026-11-24T04:02:23.700Z",
+  "platform": "Hugging Face Datasets",
+  "repoId": "ChinaMedVisit/china-tier3a-imc-medical-costs-2026",
+  "repoUrl": "https://huggingface.co/datasets/ChinaMedVisit/china-tier3a-imc-medical-costs-2026",
+  "profileUrl": "https://huggingface.co/ChinaMedVisit",
+  "commitUrl": "https://huggingface.co/datasets/ChinaMedVisit/china-tier3a-imc-medical-costs-2026/commit/27f35b7aeaefa4058ba3654212590ac1c818703b",
+  "commitOid": "27f35b7aeaefa4058ba3654212590ac1c818703b",
+  "hookOutput": null,
+  "filesUploaded": [
+    {
+      "path": "README.md",
+      "bytes": 10721
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 2533
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 2299
+    },
+    {
+      "path": "datapackage.json",
+      "bytes": 18537
+    },
+    {
+      "path": "data/china_tier3a_imc_hospitals_76.csv",
+      "bytes": 68393
+    },
+    {
+      "path": "data/china_vs_us_uk_medical_costs_2026.csv",
+      "bytes": 6940
+    },
+    {
+      "path": "data/china_medical_travel_ancillary_and_packages_2026.csv",
+      "bytes": 3221
+    },
+    {
+      "path": "data/china_specialty_frontier_therapies_24.csv",
+      "bytes": 21262
+    },
+    {
+      "path": "data/china_specialty_deepdive_comparisons_12.csv",
+      "bytes": 6183
+    },
+    {
+      "path": "notebooks/china_medical_cost_eda.ipynb",
+      "bytes": 6333
+    },
+    {
+      "path": "scripts/build-dataset.mjs",
+      "bytes": 50711
+    }
+  ],
+  "fileCount": 11
+}

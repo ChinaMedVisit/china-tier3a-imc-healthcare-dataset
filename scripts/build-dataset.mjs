@@ -43,6 +43,7 @@ const ZENODO_CONCEPT_DOI = '10.5281/zenodo.24488827';
 const ZENODO_RECORD_URL = 'https://zenodo.org/records/24488828';
 const FIGSHARE_DOI = '10.6084/m9.figshare.35099296.v1';
 const FIGSHARE_URL = 'https://figshare.com/articles/dataset/China_Tier-3A_International_Medical_Center_IMC_Directory_Cross-Border_Medical_Cost_Benchmarks_2026_/35099296';
+const HF_DATASET_URL = 'https://huggingface.co/datasets/ChinaMedVisit/china-tier3a-imc-medical-costs-2026';
 
 function writeUtf8Lf(filePath, content) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
@@ -836,6 +837,7 @@ size_categories:
   - n<1K
 configs:
   - config_name: hospitals
+    default: true
     data_files:
       - split: train
         path: data/china_tier3a_imc_hospitals_${hospitalRows.length}.csv
@@ -864,6 +866,7 @@ configs:
 [![Dataset Version](https://img.shields.io/badge/Version-${DATASET_VERSION}-emerald.svg)](CITATION.cff)
 [![DOI](https://zenodo.org/badge/DOI/${ZENODO_DOI}.svg)](https://doi.org/${ZENODO_DOI})
 [![Figshare DOI](https://img.shields.io/badge/Figshare%20DOI-10.6084%2Fm9.figshare.35099296.v1-blue.svg)](https://doi.org/${FIGSHARE_DOI})
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E.svg?logo=huggingface&logoColor=000)](${HF_DATASET_URL})
 
 An open, structured cross-border healthcare research dataset compiled and maintained by **[ChinaMedVisit](https://chinamedvisit.com)** (\`admin@chinamedvisit.com\`). Designed for health economists, medical journalists, expatriate benefits researchers, and AI/RAG evaluation benchmarks.
 
@@ -931,7 +934,7 @@ This repository is structured for synchronized, quarterly versioned archival und
 - **Zenodo (Live DataCite DOI)**: [\`https://zenodo.org/records/24488828\`](${ZENODO_RECORD_URL}) | Version DOI: [\`${ZENODO_DOI}\`](https://doi.org/${ZENODO_DOI}) | Concept DOI: [\`${ZENODO_CONCEPT_DOI}\`](https://doi.org/${ZENODO_CONCEPT_DOI})
 - **Figshare (Live DOI #2)**: [\`https://figshare.com/.../35099296\`](${FIGSHARE_URL}) | DOI: [\`${FIGSHARE_DOI}\`](https://doi.org/${FIGSHARE_DOI}) (11 files: 5 CSVs + metadata + EDA notebook + 2 SVG benchmark charts under \`CC-BY-4.0\`)
 - **OSF.io**: Connect GitHub add-on & register open project DOI
-- **Hugging Face Datasets**: Sync repo directly (YAML Dataset Card frontmatter is pre-configured above)
+- **Hugging Face Datasets (Live Mirror)**: [\`ChinaMedVisit/china-tier3a-imc-medical-costs-2026\`](${HF_DATASET_URL}) (YAML Dataset Card + 5 CSV configs + interactive Dataset Viewer)
 - **Kaggle Datasets**: Upload using \`kaggle/dataset-metadata.json\` (\`chinamedvisit/china-tier3a-imc-medical-cost-benchmarks-2026\`) + \`notebooks/china_medical_cost_eda.ipynb\`
 
 ---
