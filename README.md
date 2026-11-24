@@ -122,6 +122,7 @@ This repository is structured for synchronized, quarterly versioned archival und
 - **Figshare (Live DOI #2)**: [`https://figshare.com/.../35099296`](https://figshare.com/articles/dataset/China_Tier-3A_International_Medical_Center_IMC_Directory_Cross-Border_Medical_Cost_Benchmarks_2026_/35099296) | DOI: [`10.6084/m9.figshare.35099296.v1`](https://doi.org/10.6084/m9.figshare.35099296.v1) (11 files: 5 CSVs + metadata + EDA notebook + 2 SVG benchmark charts under `CC-BY-4.0`)
 - **OSF.io**: Connect GitHub add-on & register open project DOI
 - **Hugging Face Datasets (Live Mirror)**: [`ChinaMedVisit/china-tier3a-imc-medical-costs-2026`](https://huggingface.co/datasets/ChinaMedVisit/china-tier3a-imc-medical-costs-2026) (YAML Dataset Card + 5 CSV configs + interactive Dataset Viewer)
+- **Zotero Public Research Library (Live Group `6775929`)**: [`zotero.org/groups/6775929/chinamedvisit/items`](https://www.zotero.org/groups/6775929/chinamedvisit/items) (12 structured citations across 4 collections linking Zenodo DOI, Figshare DOI, Hugging Face Dataset, GitHub & official ChinaMedVisit guides)
 - **Kaggle Datasets**: Upload using `kaggle/dataset-metadata.json` (`chinamedvisit/china-tier3a-imc-medical-cost-benchmarks-2026`) + `notebooks/china_medical_cost_eda.ipynb`
 
 ---

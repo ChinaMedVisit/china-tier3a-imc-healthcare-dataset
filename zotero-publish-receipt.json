@@ -1,0 +1,129 @@
+{
+  "publishedAt": "2026-11-24T04:13:57.484Z",
+  "platform": "Zotero PublicClosed Group Library",
+  "groupId": 6775929,
+  "groupSlug": "chinamedvisit",
+  "groupUrl": "https://www.zotero.org/groups/6775929/chinamedvisit",
+  "libraryUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items",
+  "collections": [
+    {
+      "key": "PRQ3U6GX",
+      "name": "04. International Healthcare Reference Standards",
+      "url": "https://www.zotero.org/groups/6775929/chinamedvisit/collections/PRQ3U6GX"
+    },
+    {
+      "key": "GQDBJ7BK",
+      "name": "03. Clinical Pricing & Cross-Border Access Guides",
+      "url": "https://www.zotero.org/groups/6775929/chinamedvisit/collections/GQDBJ7BK"
+    },
+    {
+      "key": "HHWK75GQ",
+      "name": "02. Interactive Cost Benchmarks & Hospital Directory",
+      "url": "https://www.zotero.org/groups/6775929/chinamedvisit/collections/HHWK75GQ"
+    },
+    {
+      "key": "RR23HJPG",
+      "name": "01. Open Datasets & DOI Archives (2026)",
+      "url": "https://www.zotero.org/groups/6775929/chinamedvisit/collections/RR23HJPG"
+    }
+  ],
+  "itemsCount": 12,
+  "items": [
+    {
+      "key": "6RS8IATB",
+      "itemType": "report",
+      "title": "WHO Global Health Expenditure Database (GHED)",
+      "url": "https://apps.who.int/nha/database/",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/6RS8IATB"
+    },
+    {
+      "key": "F4H2VMKM",
+      "itemType": "report",
+      "title": "China Medical Tourism & Public Tier-3A International Medical Center Access Guide (2026)",
+      "url": "https://chinamedvisit.com/guide/china-medical-tourism-guide",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/F4H2VMKM"
+    },
+    {
+      "key": "9UZWPAN5",
+      "itemType": "report",
+      "title": "International Health Insurance Direct Billing & Guarantee of Payment (GOP) in Chinese Hospitals",
+      "url": "https://chinamedvisit.com/guide/international-insurance-direct-billing-china",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/9UZWPAN5"
+    },
+    {
+      "key": "AMZI235A",
+      "itemType": "report",
+      "title": "Whole-Body 18F-FDG PET-CT Scan Costs & Oncology Staging in China Tier-3A Hospitals (2026)",
+      "url": "https://chinamedvisit.com/guide/pet-ct-scan-cost-china-cancer-staging",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/AMZI235A"
+    },
+    {
+      "key": "XPEZR8FV",
+      "itemType": "report",
+      "title": "3.0T Brain MRI Scan Costs in China: Public Tier-3A IMC vs. US & UK Self-Pay Benchmarks (2026)",
+      "url": "https://chinamedvisit.com/guide/mri-scan-cost-china",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/XPEZR8FV"
+    },
+    {
+      "key": "55UKZ3F8",
+      "itemType": "webpage",
+      "title": "Bilingual Chinese-English Hospital Names, Addresses & Printable Taxi Reference Cards",
+      "url": "https://chinamedvisit.com/hospitals/chinese-names",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/55UKZ3F8"
+    },
+    {
+      "key": "EPZJ52VP",
+      "itemType": "webpage",
+      "title": "Verified Directory of 76 Chinese Tier-3A International Medical Centers Across 10 Cities",
+      "url": "https://chinamedvisit.com/hospitals",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/EPZJ52VP"
+    },
+    {
+      "key": "6TF7V2JQ",
+      "itemType": "webpage",
+      "title": "China Tier-3A Hospital Out-of-Pocket Medical Cost Calculator (2026 RMB/USD/GBP)",
+      "url": "https://chinamedvisit.com/cost-calculator",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/6TF7V2JQ"
+    },
+    {
+      "key": "52KS9TGP",
+      "itemType": "computerProgram",
+      "title": "ChinaMedVisit Open Healthcare Benchmark Dataset & Deterministic CSV Pipeline",
+      "url": "https://github.com/ChinaMedVisit/china-tier3a-imc-healthcare-dataset",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/52KS9TGP"
+    },
+    {
+      "key": "QBBZA4UR",
+      "itemType": "dataset",
+      "title": "China Tier-3A IMC Hospitals & Cross-Border Medical Cost Benchmarks (2026) — Hugging Face Dataset Card",
+      "url": "https://huggingface.co/datasets/ChinaMedVisit/china-tier3a-imc-medical-costs-2026",
+      "doi": null,
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/QBBZA4UR"
+    },
+    {
+      "key": "SDA2RXKZ",
+      "itemType": "dataset",
+      "title": "China Tier-3A International Medical Center (IMC) Directory & Cross-Border Medical Cost Benchmarks (2026) — Figshare Archive",
+      "url": "https://figshare.com/articles/dataset/China_Tier-3A_International_Medical_Center_IMC_Directory_Cross-Border_Medical_Cost_Benchmarks_2026_/35099296",
+      "doi": "10.6084/m9.figshare.35099296.v1",
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/SDA2RXKZ"
+    },
+    {
+      "key": "CXTNAJVJ",
+      "itemType": "dataset",
+      "title": "China Tier-3A International Medical Center (IMC) Directory & Cross-Border Medical Cost Benchmarks (2026)",
+      "url": "https://zenodo.org/records/24488828",
+      "doi": "10.5281/zenodo.24488828",
+      "itemPageUrl": "https://www.zotero.org/groups/6775929/chinamedvisit/items/CXTNAJVJ"
+    }
+  ]
+}
