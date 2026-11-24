@@ -1,0 +1,437 @@
+{
+  "title": "China Tier-3A IMC Hospitals & Cross-Border Medical Cost Benchmarks (2026)",
+  "id": "chinamedvisit/china-tier3a-imc-medical-cost-benchmarks-2026",
+  "subtitle": "76 China hospitals (10 cities), 12 core procedure cost benchmarks & 24 specialty therapies.",
+  "description": "Open **CC-BY-4.0** healthcare benchmark dataset compiled by **ChinaMedVisit** (`https://chinamedvisit.com`) covering **76 verified Chinese hospitals across 10 major cities** (74 public Grade-3A International Medical Centers + 2 JCI-accredited private international hospitals), **12 core clinical procedure out-of-pocket cost benchmarks** (`RMB` / `USD` / `GBP`), **4 ancillary coordination items + 4 bundled care presets**, **24 frontier clinical therapies across 8 specialties**, and **12 clinical deep-dive comparison rows**.\n\n### Interactive Companion Tools & Attribution\n- Out-of-Pocket Cost Calculator: https://chinamedvisit.com/cost-calculator\n- 76-Hospital Directory: https://chinamedvisit.com/hospitals\n- Bilingual Hospital Names & Taxi Cards: https://chinamedvisit.com/hospitals/chinese-names\n- Contact: admin@chinamedvisit.com",
+  "isPrivate": false,
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "health",
+    "public health",
+    "healthcare",
+    "china",
+    "economics",
+    "tabular"
+  ],
+  "resources": [
+    {
+      "path": "../data/china_tier3a_imc_hospitals_76.csv",
+      "description": "76 verified Chinese hospitals across 10 major cities (74 public Grade-3A International Medical Centers + 2 JCI-accredited private international hospitals) with bilingual names, addresses, metro access, direct-billing insurers, and canonical URLs.",
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "description": "Canonical URL slug identifier matching chinamedvisit.com/hospitals/<slug>.",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "description": "Official English hospital name.",
+            "type": "string"
+          },
+          {
+            "name": "name_zh",
+            "description": "Official Simplified Chinese hospital and international wing name.",
+            "type": "string"
+          },
+          {
+            "name": "pinyin",
+            "description": "Hanyu Pinyin pronunciation of the hospital name.",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "description": "Chinese hub city where the campus operates.",
+            "type": "string"
+          },
+          {
+            "name": "tier",
+            "description": "Hospital accreditation and international department classification.",
+            "type": "string"
+          },
+          {
+            "name": "ownership",
+            "description": "Public Tier-3A Academic/Municipal vs Private Foreign-Invested JCI.",
+            "type": "string"
+          },
+          {
+            "name": "english_support_level",
+            "description": "Structured level of English clinical and administrative support.",
+            "type": "string"
+          },
+          {
+            "name": "languages",
+            "description": "Semicolon-separated languages supported at the international desk.",
+            "type": "string"
+          },
+          {
+            "name": "direct_billing_insurers",
+            "description": "Semicolon-separated international insurers with direct-billing partnerships.",
+            "type": "string"
+          },
+          {
+            "name": "payment_methods",
+            "description": "Semicolon-separated outpatient and inpatient payment methods accepted.",
+            "type": "string"
+          },
+          {
+            "name": "estimated_lead_time",
+            "description": "Typical advance booking window for international appointments.",
+            "type": "string"
+          },
+          {
+            "name": "phone",
+            "description": "Verified international medical center telephone hotline.",
+            "type": "string"
+          },
+          {
+            "name": "address_en",
+            "description": "Street address in English.",
+            "type": "string"
+          },
+          {
+            "name": "address_zh",
+            "description": "Street address in Simplified Chinese (taxi-ready).",
+            "type": "string"
+          },
+          {
+            "name": "metro_station",
+            "description": "Nearest subway/metro line and exit.",
+            "type": "string"
+          },
+          {
+            "name": "specialties",
+            "description": "Semicolon-separated flagship clinical specialties.",
+            "type": "string"
+          },
+          {
+            "name": "accreditations",
+            "description": "Published national or international clinical accreditations (blank if unlisted).",
+            "type": "string"
+          },
+          {
+            "name": "verified_date",
+            "description": "ISO date (YYYY-MM-DD) of last structured record verification.",
+            "type": "string"
+          },
+          {
+            "name": "official_profile_url",
+            "description": "Single-hop verified canonical profile URL on ChinaMedVisit.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "../data/china_vs_us_uk_medical_costs_2026.csv",
+      "description": "12 core clinical procedures comparing China public Tier-3A IMC out-of-pocket intervals (RMB & USD at 0.138 USD/RMB), Chinese private international hospital ranges, US self-pay national averages, UK private rates, percentage savings, and turnaround SLAs.",
+      "schema": {
+        "fields": [
+          {
+            "name": "procedure_id",
+            "description": "Canonical procedure identifier matching procedures.ts and /api/mcp.",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "description": "Clinical service category.",
+            "type": "string"
+          },
+          {
+            "name": "procedure_name",
+            "description": "Standardized English clinical procedure title.",
+            "type": "string"
+          },
+          {
+            "name": "chinese_name",
+            "description": "Official Simplified Chinese hospital billing terminology.",
+            "type": "string"
+          },
+          {
+            "name": "tier3a_imc_rmb_min",
+            "description": "Minimum public Tier-3A IMC out-of-pocket fee in RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "tier3a_imc_rmb_max",
+            "description": "Maximum public Tier-3A IMC out-of-pocket fee in RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "tier3a_imc_usd_min",
+            "description": "Minimum Tier-3A IMC fee converted to USD at 0.138 USD/RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "tier3a_imc_usd_max",
+            "description": "Maximum Tier-3A IMC fee converted to USD at 0.138 USD/RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "private_china_rmb_min",
+            "description": "Minimum private international hospital fee in China in RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "private_china_rmb_max",
+            "description": "Maximum private international hospital fee in China in RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "private_china_usd_min",
+            "description": "Minimum private international hospital fee in China in USD.",
+            "type": "numeric"
+          },
+          {
+            "name": "private_china_usd_max",
+            "description": "Maximum private international hospital fee in China in USD.",
+            "type": "numeric"
+          },
+          {
+            "name": "us_average_usd",
+            "description": "Comparable US out-of-pocket self-pay average in USD.",
+            "type": "numeric"
+          },
+          {
+            "name": "uk_private_gbp",
+            "description": "Comparable UK private hospital benchmark in GBP.",
+            "type": "numeric"
+          },
+          {
+            "name": "estimated_savings_vs_us_pct",
+            "description": "Estimated percentage savings vs US average using China Tier-3A IMC USD midpoint.",
+            "type": "numeric"
+          },
+          {
+            "name": "typical_turnaround",
+            "description": "Expected appointment, imaging, and report turnaround window.",
+            "type": "string"
+          },
+          {
+            "name": "matched_hospital_slugs",
+            "description": "Semicolon-separated verified flagship hospital slugs performing the procedure.",
+            "type": "string"
+          },
+          {
+            "name": "clinical_notes",
+            "description": "Billing inclusions, regulatory caps (VBP), and clinical dossier notes.",
+            "type": "string"
+          },
+          {
+            "name": "usd_rmb_rate",
+            "description": "Fixed reference USD per 1 RMB exchange rate used for tabular conversion.",
+            "type": "numeric"
+          },
+          {
+            "name": "source_url",
+            "description": "Canonical interactive calculator URL on ChinaMedVisit.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "../data/china_medical_travel_ancillary_and_packages_2026.csv",
+      "description": "4 standardized non-clinical coordination services (bilingual escort, certified red-seal translation, nearby lodging, airport transfer) and 4 bundled multi-day clinical trip presets with deterministic min/max totals.",
+      "schema": {
+        "fields": [
+          {
+            "name": "item_id",
+            "description": "Canonical ancillary service or care package preset identifier.",
+            "type": "string"
+          },
+          {
+            "name": "record_type",
+            "description": "Row classification: ancillary_cost or care_package_preset.",
+            "type": "string"
+          },
+          {
+            "name": "category_or_duration",
+            "description": "Service category for ancillary items or recommended stay duration for packages.",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "description": "Display name of ancillary service or care bundle.",
+            "type": "string"
+          },
+          {
+            "name": "rmb_min",
+            "description": "Minimum reference fee (or deterministic summed bundle minimum) in RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "rmb_max",
+            "description": "Maximum reference fee (or deterministic summed bundle maximum) in RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "usd_min",
+            "description": "Minimum reference fee converted to USD at 0.138 USD/RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "usd_max",
+            "description": "Maximum reference fee converted to USD at 0.138 USD/RMB.",
+            "type": "numeric"
+          },
+          {
+            "name": "unit_or_included_procedures",
+            "description": "Billing unit for ancillary items or semicolon-separated procedure_ids in bundle.",
+            "type": "string"
+          },
+          {
+            "name": "recommended_ancillaries",
+            "description": "Semicolon-separated recommended ancillary item_ids for care packages.",
+            "type": "string"
+          },
+          {
+            "name": "description_or_target_cases",
+            "description": "Scope, logistics details, and target patient scenarios.",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "description": "Canonical interactive calculator URL on ChinaMedVisit.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "../data/china_specialty_frontier_therapies_24.csv",
+      "description": "All 24 frontier clinical therapies extracted verbatim from specialtyKnowledgeBase.ts across 8 specialties (oncology, neurology, cardiology, orthopedics, rehabilitation, pulmonology, TCM, ophthalmology), paired with required pre-travel clinical dossiers and post-discharge customs rules.",
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "description": "Unique specialty-rank identifier (e.g., oncology-1).",
+            "type": "string"
+          },
+          {
+            "name": "specialty_slug",
+            "description": "Canonical clinical specialty URL slug.",
+            "type": "string"
+          },
+          {
+            "name": "specialty_name",
+            "description": "Display name of the clinical specialty.",
+            "type": "string"
+          },
+          {
+            "name": "therapy_rank",
+            "description": "1-based ordering of the frontier therapy within its specialty.",
+            "type": "numeric"
+          },
+          {
+            "name": "technology",
+            "description": "Clinical technology, surgical technique, or therapeutic platform.",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "description": "Clinical description of how the therapy is delivered in China Tier-3A centers.",
+            "type": "string"
+          },
+          {
+            "name": "clinical_advantage",
+            "description": "Documented clinical throughput, precision, or cost advantage.",
+            "type": "string"
+          },
+          {
+            "name": "required_dossier_items",
+            "description": "Semicolon-separated pre-arrival clinical dossier items required for evaluation.",
+            "type": "string"
+          },
+          {
+            "name": "post_discharge_customs_rules",
+            "description": "Post-discharge medication, implant card, and border customs guidance.",
+            "type": "string"
+          },
+          {
+            "name": "official_specialty_url",
+            "description": "Single-hop verified specialty hub URL on ChinaMedVisit.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "../data/china_specialty_deepdive_comparisons_12.csv",
+      "description": "All 12 rows extracted verbatim from the clinicalDeepDiveSection.comparisonTable structures in specialtyKnowledgeBase.ts (Skull-Base & Acoustic Neuroma Microsurgery, National Apex Spine Revision Centers & Package Costs, and Public Tier-3A Hospital Checkup vs Independent Screening Chains).",
+      "schema": {
+        "fields": [
+          {
+            "name": "specialty_slug",
+            "description": "Canonical clinical specialty URL slug.",
+            "type": "string"
+          },
+          {
+            "name": "specialty_name",
+            "description": "Display name of the clinical specialty.",
+            "type": "string"
+          },
+          {
+            "name": "table_title",
+            "description": "Title of the clinical comparison table.",
+            "type": "string"
+          },
+          {
+            "name": "row_index",
+            "description": "1-based row position within the comparison table.",
+            "type": "numeric"
+          },
+          {
+            "name": "col_1_header",
+            "description": "Column 1 header label from source comparisonTable.",
+            "type": "string"
+          },
+          {
+            "name": "col_1_value",
+            "description": "Column 1 cell value.",
+            "type": "string"
+          },
+          {
+            "name": "col_2_header",
+            "description": "Column 2 header label from source comparisonTable.",
+            "type": "string"
+          },
+          {
+            "name": "col_2_value",
+            "description": "Column 2 cell value.",
+            "type": "string"
+          },
+          {
+            "name": "col_3_header",
+            "description": "Column 3 header label from source comparisonTable.",
+            "type": "string"
+          },
+          {
+            "name": "col_3_value",
+            "description": "Column 3 cell value.",
+            "type": "string"
+          },
+          {
+            "name": "col_4_header",
+            "description": "Column 4 header label from source comparisonTable.",
+            "type": "string"
+          },
+          {
+            "name": "col_4_value",
+            "description": "Column 4 cell value.",
+            "type": "string"
+          },
+          {
+            "name": "official_specialty_url",
+            "description": "Single-hop verified specialty hub URL on ChinaMedVisit.",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

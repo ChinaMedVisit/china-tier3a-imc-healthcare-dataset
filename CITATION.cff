@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+title: "China Tier-3A International Medical Center (IMC) Directory & Cross-Border Medical Cost Benchmarks (2026)"
+message: "If you use this dataset in research, journalism, policy analysis, or software, please cite it using the metadata below (CC-BY-4.0)."
+type: dataset
+version: "2026.11.0"
+date-released: "2026-11-23"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/ChinaMedVisit/china-tier3a-imc-healthcare-dataset"
+url: "https://chinamedvisit.com/cost-calculator"
+abstract: >-
+  Structured cross-border healthcare benchmark dataset compiled by ChinaMedVisit
+  covering 76 verified Chinese hospitals across 10 major cities (74 public Grade-3A
+  International Medical Centers and 2 JCI-accredited private international hospitals),
+  12 core clinical procedure out-of-pocket cost benchmarks comparing China Tier-3A IMC,
+  China private international clinics, US self-pay averages, and UK private rates,
+  4 ancillary medical-travel coordination items, 4 bundled multi-day care presets,
+  24 frontier specialty clinical therapies across 8 specialties, and 12 specialty
+  deep-dive comparison benchmarks.
+authors:
+  - name: "ChinaMedVisit Research Desk"
+    website: "https://chinamedvisit.com"
+    email: "admin@chinamedvisit.com"
+contact:
+  - name: "ChinaMedVisit Editorial & Data Desk"
+    email: "admin@chinamedvisit.com"
+    website: "https://chinamedvisit.com"
+keywords:
+  - china-healthcare
+  - tier-3a-hospitals
+  - international-medical-center
+  - medical-cost-benchmarks
+  - medical-tourism
+  - cross-border-healthcare
+  - health-economics
+identifiers:
+  - type: url
+    value: "https://chinamedvisit.com/hospitals"
+    description: "Live searchable directory of 76 verified hospitals across 10 Chinese cities"
+  - type: url
+    value: "https://chinamedvisit.com/cost-calculator"
+    description: "Interactive out-of-pocket medical cost calculator (RMB/USD/EUR/GBP/AUD/CAD/SGD)"
+preferred-citation:
+  type: dataset
+  title: "China Tier-3A International Medical Center (IMC) Directory & Cross-Border Medical Cost Benchmarks (2026)"
+  authors:
+    - name: "ChinaMedVisit Research Desk"
+  year: 2026
+  version: "2026.11.0"
+  publisher:
+    name: "ChinaMedVisit / Zenodo (DOI pending initial GitHub Release)"
+  url: "https://chinamedvisit.com/cost-calculator"
