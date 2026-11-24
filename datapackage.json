@@ -5,7 +5,7 @@
   "version": "2026.11.0",
   "description": "Open CC-BY-4.0 cross-border healthcare benchmark dataset compiled by ChinaMedVisit covering 76 verified Chinese hospitals across 10 cities, 12 core procedure out-of-pocket cost benchmarks (China Tier-3A IMC vs Private China vs US Self-Pay vs UK Private), 4 ancillary costs, 4 bundled care presets, 24 frontier specialty therapies across 8 specialties, and 12 clinical deep-dive comparison table rows.",
   "homepage": "https://chinamedvisit.com/cost-calculator",
-  "created": "2026-11-23",
+  "created": "2026-11-24",
   "licenses": [
     {
       "name": "CC-BY-4.0",

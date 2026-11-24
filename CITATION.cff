@@ -3,7 +3,8 @@ title: "China Tier-3A International Medical Center (IMC) Directory & Cross-Borde
 message: "If you use this dataset in research, journalism, policy analysis, or software, please cite it using the metadata below (CC-BY-4.0)."
 type: dataset
 version: "2026.11.0"
-date-released: "2026-11-23"
+date-released: "2026-11-24"
+doi: "10.5281/zenodo.24488828"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/ChinaMedVisit/china-tier3a-imc-healthcare-dataset"
 url: "https://chinamedvisit.com/cost-calculator"
@@ -46,6 +47,7 @@ preferred-citation:
     - name: "ChinaMedVisit Research Desk"
   year: 2026
   version: "2026.11.0"
+  doi: "10.5281/zenodo.24488828"
   publisher:
-    name: "ChinaMedVisit / Zenodo (DOI pending initial GitHub Release)"
-  url: "https://chinamedvisit.com/cost-calculator"
+    name: "Zenodo"
+  url: "https://zenodo.org/records/24488828"

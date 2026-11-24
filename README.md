@@ -44,6 +44,7 @@ configs:
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![Dataset Version](https://img.shields.io/badge/Version-2026.11.0-emerald.svg)](CITATION.cff)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24488828.svg)](https://doi.org/10.5281/zenodo.24488828)
 
 An open, structured cross-border healthcare research dataset compiled and maintained by **[ChinaMedVisit](https://chinamedvisit.com)** (`admin@chinamedvisit.com`). Designed for health economists, medical journalists, expatriate benefits researchers, and AI/RAG evaluation benchmarks.
 
@@ -104,7 +105,7 @@ Every file is deterministically compiled by `scripts/build-dataset.mjs` directly
 When citing this dataset in articles, academic papers, policy briefs, or software applications, please include the attribution below (see also `CITATION.cff`):
 
 ```text
-ChinaMedVisit Research Desk (2026). China Tier-3A International Medical Center (IMC) Directory & Cross-Border Medical Cost Benchmarks (v2026.11.0) [Dataset]. ChinaMedVisit. https://chinamedvisit.com/cost-calculator
+ChinaMedVisit Research Desk (2026). China Tier-3A International Medical Center (IMC) Directory & Cross-Border Medical Cost Benchmarks (v2026.11.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24488828 | Record: https://zenodo.org/records/24488828 | Calculator: https://chinamedvisit.com/cost-calculator
 ```
 
 ---
@@ -114,7 +115,7 @@ ChinaMedVisit Research Desk (2026). China Tier-3A International Medical Center (
 This repository is structured for synchronized, quarterly versioned archival under the standalone **`ChinaMedVisit`** organization:
 
 - **GitHub Repository & Quarterly Releases**: `https://github.com/ChinaMedVisit/china-tier3a-imc-healthcare-dataset`
-- **Zenodo (DataCite DOI)**: Connect GitHub Release webhook (`v2026.11.0`); link `Related Identifiers` -> `isSupplementTo: https://chinamedvisit.com/cost-calculator` and `isDerivedFrom: https://chinamedvisit.com/hospitals`
+- **Zenodo (Live DataCite DOI)**: [`https://zenodo.org/records/24488828`](https://zenodo.org/records/24488828) | Version DOI: [`10.5281/zenodo.24488828`](https://doi.org/10.5281/zenodo.24488828) | Concept DOI: [`10.5281/zenodo.24488827`](https://doi.org/10.5281/zenodo.24488827)
 - **Figshare (DOI)**: Upload `data/*.csv` + charts from `notebooks/china_medical_cost_eda.ipynb` under `CC-BY-4.0`
 - **OSF.io**: Connect GitHub add-on & register open project DOI
 - **Hugging Face Datasets**: Sync repo directly (YAML Dataset Card frontmatter is pre-configured above)
